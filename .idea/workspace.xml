@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Galgeserver:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fca72ef6-bea8-41a5-a868-e3f0bae6c6fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Galgeserver_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Galgeserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/UniqueKegGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/data/Bruger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/data/Diverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/server/BenytBrugerdatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/server/Brugerdatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/server/Serialisering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/transport/rmi/Brugeradmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/transport/rmi/BrugeradminImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/transport/rmi/Brugeradminklient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/transport/rmi/Brugeradminserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/transport/soap/Brugeradmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/transport/soap/BrugeradminImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/transport/soap/Brugeradminklient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brugerautorisation/transport/soap/Brugeradminserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Galgelogik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/CORSResponseFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/DrOrdRestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spilserver/RestGalgeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spilserver/SpilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spilserver/SpilInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spilserver/SpilServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spilserver/SpilserverInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spilserver/StartSpilServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Galgeserver.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/UniqueKegGen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/data/Bruger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/data/Diverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/server/BenytBrugerdatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/server/Brugerdatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/server/Serialisering.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/rmi/Brugeradmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/rmi/BrugeradminImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/rmi/Brugeradminklient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/rmi/Brugeradminserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/soap/Brugeradmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/soap/BrugeradminImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/soap/Brugeradminklient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/soap/Brugeradminserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Galgelogik.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/CORSResponseFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/DrOrdRestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spilserver/RestGalgeServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spilserver/SpilImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spilserver/SpilInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spilserver/SpilServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spilserver/SpilserverInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spilserver/StartSpilServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/Galgeserver.kotlin_module" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/RestGalgeServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/SpilImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/SpilInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/SpilServerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="108" selection-start-line="36" selection-start-column="108" selection-end-line="36" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/UniqueKegGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/StartSpilServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="87" column="10" selection-start-line="86" selection-start-column="11" selection-end-line="87" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/model/Galgelogik.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spilserver/MyResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/CORSResponseFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/MyResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/rmispil/SpilImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/rmispil/SpilServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/overordnetspilserver/StartSpilServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilservere/restspil/SpilInterfaceRest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilservere/rmispil/SpilImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilservere/restspil/RestSpil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilservere/rmispil/SpilServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/overordnetspilserver/StartSpilServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilservere/restspil/RestGalgeServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilservere/rmispil/StartSpilServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilservere/StartSpilServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/SpilserverInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/SpilServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/SpilImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/restspil/RestGalgeServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/RestGalgeServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/spilserver/StartSpilServer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="184" />
+    <option name="y" value="109" />
+    <option name="width" value="1595" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Galgeserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galgeserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galgeserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galgeserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galgeserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galgeserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galgeserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galgeserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galgeserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galgeserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galgeserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Galgeserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spilserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Galgeserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553095800994" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="spilserver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/spilserver" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/overordnetspilserver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StartSpilServer">
+    <configuration name="StartSpilServer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spilserver.StartSpilServer" />
+      <module name="Galgeserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spilserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartSpilServer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spilserver.StartSpilServer" />
+      <module name="Galgeserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spilserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Galgeserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spilserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spilserver" />
+      <option name="MAIN_CLASS_NAME" value="spilserver.MyResourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyResourceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fca72ef6-bea8-41a5-a868-e3f0bae6c6fd" name="Default Changelist" comment="" />
+      <created>1552223659204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552223659204</updated>
+      <workItem from="1552223663379" duration="18455000" />
+      <workItem from="1552293973030" duration="12343000" />
+      <workItem from="1552323258563" duration="17925000" />
+      <workItem from="1552385735527" duration="8464000" />
+      <workItem from="1552422432854" duration="5448000" />
+      <workItem from="1552480180634" duration="14000" />
+      <workItem from="1552484675076" duration="3722000" />
+      <workItem from="1552501188319" duration="28971000" />
+      <workItem from="1552602312499" duration="11158000" />
+      <workItem from="1552647528634" duration="600000" />
+      <workItem from="1552992054893" duration="1753000" />
+      <workItem from="1553095514727" duration="324000" />
+      <workItem from="1553097941585" duration="346000" />
+      <workItem from="1553181900668" duration="341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MyResourceTest - 2019.03.10 at 14h 25m 40s.xml">
+      <configuration name="MyResourceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyResourceTest - 2019.03.10 at 14h 26m 28s.xml">
+      <configuration name="MyResourceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="109864000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="184" y="109" width="1595" height="789" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26016784" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32803467" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28096676" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33030304" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275862" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3297414" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/transport/soap/Brugeradminserver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/transport/rmi/BrugeradminImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/transport/rmi/Brugeradminklient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/transport/rmi/Brugeradminserver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/server/BenytBrugerdatabase.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/transport/soap/Brugeradmin.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/transport/soap/Brugeradminklient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/server/Brugerdatabase.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/data/Diverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Galgelogik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.28-RC4/jersey-client-2.28-RC4.jar!/org/glassfish/jersey/client/JerseyInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="404" selection-start-line="404" selection-end-line="404" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spilserver/MyResourceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilservere/restspil/SpilInterfaceRest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilservere/restspil/RestSpil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/DrOrdRestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/server-config.wsdd" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/conf/axis2.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/CORSResponseFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/SpilserverInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/RestGalgeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/SpilImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/SpilInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/SpilServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="108" selection-start-line="36" selection-start-column="108" selection-end-line="36" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/brugerautorisation/UniqueKegGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="10" selection-start-line="86" selection-start-column="11" selection-end-line="87" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spilserver/StartSpilServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Galgeserver:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Galgeserver</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
